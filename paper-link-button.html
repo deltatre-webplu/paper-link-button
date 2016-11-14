@@ -1,0 +1,47 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-button/paper-button.html">
+
+<!--
+`paper-link-button`
+Button wrapper for hyperlinks
+
+@demo demo/index.html
+-->
+
+<dom-module id="paper-link-button">
+
+<style>
+:host {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+</style>
+
+<template>
+
+  <a href$="[[href]]" tabindex="-1">
+    <paper-button>
+      <content></content>
+    </paper-button>
+  </a>
+
+</template>
+
+<script>
+(function() {
+  "use strict";
+
+  Polymer({
+    is: 'paper-link-button',
+    properties: {
+      href: String
+    }
+  });
+
+})();
+</script>
+
+</dom-module>
