@@ -5,6 +5,11 @@
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deltatre-webplu/paper-link-button"
+  },
+  "license": "https://opensource.org/licenses/MIT",
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
