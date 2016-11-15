@@ -3,7 +3,8 @@
   "description": "Button wrapper for hyperlinks",
   "main": "paper-link-button.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.4.0"
+    "polymer": "Polymer/polymer#^1.4.0",
+    "paper-button": "^1.0.14"
   },
   "repository": {
     "type": "git",
